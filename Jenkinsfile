@@ -1,11 +1,3 @@
-// SCRIPTED - stage blocks are optional
-// node {
-// 	echo "Build"
-// 	echo "Test"
-// 	echo "Test"
-// }
-
-// DECLARATIVE
 pipeline {
 	agent any
 	// agent { docker { image 'maven:3.6.3' } }
